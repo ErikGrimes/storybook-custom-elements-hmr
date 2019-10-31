@@ -1,0 +1,25 @@
+{
+  "name": "storybook-custom-elements-hmr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lit-element": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-decorators": "^7.6.0",
+    "@storybook/html": "^5.2.5",
+    "babel-loader": "^8.0.6",
+    "custom-elements-hmr-polyfill": "^1.0.0-beta.8",
+    "lit-html": "^1.1.2",
+    "webpack-merge": "^4.2.2"
+  }
+}
